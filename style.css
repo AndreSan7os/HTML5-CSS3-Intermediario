@@ -1,0 +1,33 @@
+body{
+    margin: 60;
+    padding: 60;
+}
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#polegadas{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#pixel{
+    background-color: red;
+    width: 1px;
+    height: 1px;
+}
+
+#pontos{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
