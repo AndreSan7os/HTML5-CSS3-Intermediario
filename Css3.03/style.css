@@ -1,0 +1,8 @@
+#base{
+    height: 10px;
+    background-color: red;
+}
+.container{
+    background-color: blue;
+    color: bisque;
+}
