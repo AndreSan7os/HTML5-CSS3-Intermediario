@@ -1,0 +1,71 @@
+* {   
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        line-height: 1.4;
+    
+    }
+
+    header{
+        background-color: aqua;
+    }
+
+    hgroup > a {
+        color: #c30;
+        text-decoration: none;
+    }
+    nav > ul {
+        width: 100%;
+        background-color: bisque;
+        margin: 0;
+        padding: 0;
+    }    
+
+    .topo {
+        width: 100%;
+        line-height: 1;
+        padding: 1px 20px 10px 20px;
+    }
+
+    .topo h1 {
+        font-size: 36px;
+        margin: 4px 0 2px 0;
+        text-align: right;
+        padding-right: 35px;
+    }
+
+    .topo a {
+        color: #900;
+        text-decoration: none;
+    }
+
+    .topo h2{
+        font-size: 20px;
+        margin: 2px 0 4px 0;
+        text-align: right;
+        padding-right: 30px;
+    }
+    .topo ul li {
+        list-style: none;
+        display: inline;
+    }
+    .topo ul li a {
+        float: left;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        border-right: 1px solid #fff;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #900;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .topo ul li:last-child a {border: none;}
+    .topo ul li a:hover {color: #900; background-color: #ccc;}
+
+   
