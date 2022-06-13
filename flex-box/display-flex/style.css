@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    width: 400px;
+    border: 2px solid black;
+    
+    
+}
+.item{
+    margin: 20px;
+    color: black;
+    background-color: aqua;
+}
