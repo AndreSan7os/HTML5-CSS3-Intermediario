@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.item{
+    font-weight: 30px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 60px;
+    width: 150px;
+    background-color: cyan;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+.wrap{
+    flex-flow: row wrap;
+}
+.wrap-reverse{
+    flex-flow: row wrap-reverse;
+}
+
+.r-nowrap{
+    flex-flow: row-reverse nowrap;
+}
+
+.r-wrap{
+    flex-flow: row-reverse wrap;
+}
+
+.rr-wrap{
+    flex-flow: row-reverse wrap-reverse;
+}
+
